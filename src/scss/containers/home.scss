@@ -1,0 +1,31 @@
+.home-conatiner {
+  width: 100%;
+  min-height: 100vh;
+  background: #8fd3f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .content {
+    margin: 0 20px;
+    background: white;
+    padding: 50px;
+    border-radius: 6px;
+    box-shadow: -15px 20px 25px -5px rgba(0, 0, 0, 0.3);
+
+    & h1 {
+      font-size: 25px;
+      color: lighten(#008000, .2);
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    & p {
+      font-size: 20px;
+      color: lighten(#008000, .3);
+      text-align: center;
+    }
+  }
+
+}
